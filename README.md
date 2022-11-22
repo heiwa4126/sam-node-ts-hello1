@@ -1,4 +1,4 @@
-# sam-node-typescript-hello1
+# sam-node-ts-hello1
 
 AWS SAM で TypeScript.
 
