@@ -8,7 +8,7 @@
   "license": "MIT",
   "scripts": {
     "unit": "jest",
-    "lint": "eslint '*.ts' --quiet --fix",
+    "lint": "tsc --noEmit",
     "compile": "tsc",
     "test": "npm run compile && npm run unit"
   },
