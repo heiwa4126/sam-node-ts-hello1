@@ -1,26 +1,21 @@
 {
-  "name": "hello_world",
-  "version": "1.0.0",
-  "description": "hello world sample for NodeJS",
-  "main": "app.js",
-  "repository": "https://github.com/awslabs/aws-sam-cli/tree/develop/samcli/local/init/templates/cookiecutter-aws-sam-hello-nodejs",
-  "author": "SAM CLI",
-  "license": "MIT",
-  "scripts": {
-    "unit": "jest",
-    "lint": "tsc --noEmit",
-    "compile": "tsc",
-    "test": "npm run compile && npm run unit"
-  },
-  "devDependencies": {
-    "@types/aws-lambda": "^8.10.164",
-    "@types/jest": "^30.0.0",
-    "@types/node": "^26.6.6",
-    "esbuild": "^0.28.2",
-    "esbuild-jest": "^0.5.0",
-    "jest": "^30.5.2",
-    "prettier": "^3.9.10",
-    "ts-node": "^10.9.2",
-    "typescript": "^7.0.2"
-  }
+	"name": "hello_world",
+	"version": "1.0.0",
+	"description": "hello world sample for NodeJS",
+	"license": "MIT",
+	"author": "SAM CLI",
+	"repository": "https://github.com/awslabs/aws-sam-cli/tree/develop/samcli/local/init/templates/cookiecutter-aws-sam-hello-nodejs",
+	"main": "app.js",
+	"scripts": {
+		"lint": "tsc --noEmit",
+		"build": "tsc",
+		"compile": "tsc",
+		"test": "vitest run"
+	},
+	"devDependencies": {
+		"@types/aws-lambda": "^8.10.164",
+		"@types/node": "^26.6.6",
+		"prettier": "^3.9.10",
+		"typescript": "^7.0.2"
+	}
 }
